@@ -1,0 +1,47 @@
+{% load static %}
+<html>
+    <head>
+        <title>Blair Bear Honey</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+        <link rel="stylesheet" href="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    </head>
+
+    <body>
+    <!-- Start Top Bar -->
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <ul class="menu">
+          <li class="menu-text">Blair Bear Honey</li>
+        </ul>
+      </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Beekeeping</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Honey House</a></li>
+          <li><a href="#">Events</a></li>
+        </ul>
+      </div>
+    </div>
+   <!-- End Top Bar -->
+   <div class="callout large">
+       <div class="row">
+           <img src="{% static 'logo.svg' %}" alt="logo">
+          <div class="row column text-center">
+            <h1>Blair Bear Honey</h1>
+            <p class="lead">Local Honey From Our Backyard Bees</p>
+          </div>
+       </div>
+    </div>
+      {% block content %}
+      {% endblock %}
+      </div>
+</body> 
+</html>
+
