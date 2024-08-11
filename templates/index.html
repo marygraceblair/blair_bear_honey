@@ -1,8 +1,9 @@
 {% extends "index_header.html" %}
 {% block content %}
+    {% load static %}
     <div class="row">
       <div class="medium-6 columns medium-push-6">
-        <img class="thumbnail" src="https://placehold.it/750x350">
+          <img class="thumbnail" src={% static 'beekeepers_2.jpeg' %}>
       </div>
       <div class="medium-6 columns medium-pull-6">
         <h2>Your Favorite Local Beekeepers</h2>
@@ -42,22 +43,22 @@
 
     <div class="row medium-up-3 large-up-4">
       <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
+          <img class="thumbnail" src={%static 'wagon.jpeg' %}>
       </div>
       <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
+          <img class="thumbnail" src={% static 'dad_suit.jpeg' %}>
       </div>
       <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
+        <img class="thumbnail" src={% static 'john_suit.jpeg' %}>
       </div>
       <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
+        <img class="thumbnail" src={% static 'mom_suit.jpeg' %}>
       </div>
       <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
+        <img class="thumbnail" src={% static 'honeycomb.jpeg' %}>
       </div>
       <div class="column">
-        <img class="thumbnail" src="https://placehold.it/550x550">
+        <img class="thumbnail" src={% static 'john_smoker.jpeg' %}>
       </div>
       <div class="column">
         <img class="thumbnail" src="https://placehold.it/550x550">
